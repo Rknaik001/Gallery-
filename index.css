@@ -11,7 +11,7 @@ body {
 
 .wrap {
     display: grid;
-    grid-template-columns: repeat(3, 350px);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 300px);
     gap: 15px 20px;
 
@@ -39,7 +39,7 @@ body {
     background-size: cover;
     grid-column: 3/4;
     grid-row: 1/3;
-    width: 750px;
+    /* width: 750px; */
 }
 
 .a4 {
@@ -58,20 +58,20 @@ body {
     background-size: cover;
     grid-column: 1/3;
     grid-row: 3/5;
-    width: 720px;
+    /* width: 720px; */
 }
 
 .a8 {
     background-image: url(https://source.unsplash.com/random/daylightt/);
     background-size: cover;
-    width: 750px;
+    /* width: 750px; */
     height: 300px;
 }
 
 .a9 {
     background-image: url(https://source.unsplash.com/random/streetview/);
     background-size: cover;
-    width: 750px;
+    /* width: 750px; */
     /* gave width cz colum not working */
     height: 300px;
 }
@@ -79,8 +79,8 @@ body {
 .a10 {
     background-image: url(https://source.unsplash.com/random/landscape/);
     background-size: initial;
-    width: 1500px;
-    /* grid-column: 1/4; */
+    /* width: 1500px; */
+    grid-column: 1/4;
     height: 300px;
 }
 
